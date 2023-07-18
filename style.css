@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+nav{
+  position: fixed;
+  background:lightcyan;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: darkblue;
+  font-size: 50px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 10px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: darkblue;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 25px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.menu ul li a:hover{
+  background: white;
+  color: black;
+}
+.img{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.center{
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.center .title{
+  color: whitesmoke;
+  font-size: 55px;
+  font-weight: 600;
+}
+.center .sub_title{
+  color: whitesmoke;
+  font-size: 25px;
+  font-weight: 100;
+}
+.center .btns{
+  margin-top: 10px;
+}
+.center .btns button{
+  height: 50px;
+  width: 170px;
+  border-radius: 10px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid black;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.5s;
+}
+
+.center .btns button:first-child{
+  color: #fff;
+  background: none;
+}
+.btns button:first-child:hover{
+  background: white;
+  color: black;
+}
+.center .btns button:last-child{
+  background: white;
+  color: black;
+}
+.Contact{
+  text-decoration: none;
+  background-color: black; 
+}
+.Contact .address{
+  margin-top: -7em;
+  margin-right: 4em;
+ }
+.Contact .address .head{
+  text-align: right;
+  color: white;
+  font-size: 35px;
+  margin-top: -6em;
+  margin-right:0em;
+}
+.Contact .desc{
+  margin-left: 0em;
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 100;
+  font-style: italic;
+  color:white; 
+}
+ .Contact .link{
+  align-items :center;
+  color:white;
+  text-align:center;
+
+}
+.Contact .link .fa {
+  padding: 25px 25px 25px 25px;
+  font-size: 25px;
+  width:5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 5px;
+  border-radius: 100%;
+}
+
+.Contact .link .fa:hover {
+    opacity: 0.7;
+}
+.Contact .link .fa-facebook {
+  background: rgb(0, 89, 255);
+  color: white;
+}
+
+.Contact .link .fa-twitter {
+  background: rgb(112, 217, 255);
+  color: white;
+}
+
+.Contact .link .fa-google {
+  background: rgb(205, 248, 141);
+  color: white;
+}
+
+.Contact .link .fa-linkedin {
+ background: rgb(10, 66, 186);
+  color: white;
+}
+
+.Contact .link .fa-youtube {
+  background: red;
+  color: white;
+}
+
+.Contact .link .fa-instagram {
+ background: rgb(225, 122, 139);
+  color: white;
+}
+.Contact .copy{
+  color:white
+}
+.About{
+  text-decoration: none;
+  font-size: 40px;
+  font-family: arial;
+  font-weight: 600;
+ background-color:white;
+ color:white;
+ text-align: center;
+}
+.About .pa1{
+  text-decoration: none;
+  font-size: 15px;
+  font-family:arial;
+}
+
+.Acadamics {
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+  color:rgb(22, 51, 165);
+  font-weight: 600;
+  font-family: arial;
+  background-color: white;
+}
+.Acadamics .cur{
+  text-decoration: none;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 200;
+  color:rgb(22, 51, 165);
+ 
+}
+.Acadamics .Co-curricular{
+  text-decoration: none;
+  text-align: justify;
+  font-size: 16px;
+  font-weight: 200;
+  color:rgb(22, 51, 165);
+}
+.Acadamics .img1{
+  margin-left:2em;
+  margin-top: 1em;
+}
+.Acadamics .img2{
+  margin-top: -28em;
+  margin-left: 50em;
+  margin-right: 2em;
+}
